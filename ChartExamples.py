@@ -42,7 +42,7 @@ lblChart3 = tk.Label (text = "Заполнить между", font = ('Tahoma', 
 lblChart3.place(x=180, y=198)
 
 # Добавление кнопки и метки для графика 4
-btnChart2 = tk.Button(window, text="График 4 ", font = ('Tahoma', 11, 'bold'), fg = '#CC0000' , command=chart2.plot_chart)
+btnChart2 = tk.Button(window, text="График 4 ", font = ('Tahoma', 11, 'bold'), fg = '#CC0000' , command=chart2.plot_chart2)
 btnChart2.place(x=60, y=237, width=90, height=30)
 
 lblChart2 = tk.Label (text = "Нормальное распределение - 3 графика", font = ('Tahoma', 11, 'bold'), fg = '#CC0000')
