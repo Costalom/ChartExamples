@@ -12,8 +12,7 @@ def plot_chart():
     fig, ax = plt.subplots()
     ax.plot(x, f)
     
-    ax.set(xlabel='X', ylabel='Y', 
-           title='Нормальное распределение')
+    ax.set(xlabel='X', ylabel='Y', title='Нормальное распределение')
     ax.grid()
     
     plt.show()
