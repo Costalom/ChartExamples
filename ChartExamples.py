@@ -53,14 +53,14 @@ lblChart2.place(x=180, y=237)
 btnChart2 = tk.Button(window, text="График 5 ", font = ('Tahoma', 11, 'bold'), command=chart4.plot_chart)
 btnChart2.place(x=60, y=276, width=90, height=30)
 
-lblChart2 = tk.Label (text = "Гостограмма Seaborn", font = ('Tahoma', 11, 'bold'))
+lblChart2 = tk.Label (text = "Гистограмма Seaborn", font = ('Tahoma', 11, 'bold'))
 lblChart2.place(x=180, y=276)
 
 # Добавление кнопки и метки для графика 6
-btnChart2 = tk.Button(window, text="График 6 ", font = ('Tahoma', 11, 'bold'), command=chart2.plot_chart)
+btnChart2 = tk.Button(window, text="График 6 ", font = ('Tahoma', 11, 'bold'), command=chart4.plot_chart2)
 btnChart2.place(x=60, y=315, width=90, height=30)
 
-lblChart2 = tk.Label (text = "")
+lblChart2 = tk.Label (text = "Сдвоенная гистограмма Seaborn", font = ('Tahoma', 11, 'bold'))
 lblChart2.place(x=180, y=315)
 
 # Добавление кнопки и метки для графика 7
